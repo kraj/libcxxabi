@@ -12,7 +12,7 @@
 
 #if defined(__arm__) && !defined(__USING_SJLJ_EXCEPTIONS__) &&                 \
     !defined(__ARM_DWARF_EH__)
-#define LIBCXXABI_ARM_EHABI 1
+#define LIBCXXABI_ARM_EHABI 0
 #else
 #define LIBCXXABI_ARM_EHABI 0
 #endif
